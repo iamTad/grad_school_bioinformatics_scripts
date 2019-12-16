@@ -21,5 +21,5 @@ Z = number of fixed differences between species B and species A+C
 
 calculate each of the above per window and also get total values for each of the above.
 
-HKA(speciesA) = -log10(pval(chi2([W,Y],[WGlobal,ZGlobal])))
+HKA(speciesA) = -log10(pval(chi2([W,Y],[WGlobal,ZGlobal]))) <br>
 homogeneity(speciesA, speciesB) = -log10(pval(chi2([W,Y],[X,Z])))
