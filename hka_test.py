@@ -163,7 +163,7 @@ def main():
                             (miniDF[B].str.len() == 1) &
                             (miniDF[C].str.len() == 1) &
                             (miniDF[A] != miniDF[B]) &
-                            (miniDF[B] == miniDF[C])].shape[0]
+                            (miniDF[A] == miniDF[C])].shape[0]
 
             # get HKA for population A
             if wLocal + yLocal > 0:
