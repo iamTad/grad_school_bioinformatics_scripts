@@ -14,7 +14,7 @@ These scripts are here to help me with some day to day stuff. Generally, you can
 **hka_test.py** takes in a vcf file and calculates hka between two species in non-overlapping sliding windows across the genome. Will also perform a homogeneity test for the two species of interest. I wrote this because I couldn't find an HKA test calculator online that processes a vcf file. I used PANDAS for convenience, but that means the memory usage will be enormous--I might rewrite this using only hash tables.
 **hkat_test_genes_v2.py*** is a much faster version of the original script. However, the input file must have the following columns:
 + regular vcf columns
-+ bedgraph headers
++ gff headers
 + last column must have a unique label
 
 
